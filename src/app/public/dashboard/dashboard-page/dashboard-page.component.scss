@@ -1,0 +1,79 @@
+.container{
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       :nowrap;
+
+    width           : 100%;
+    height          : 100vh;
+    border-style    : solid;
+    /* border-color    : rgb(243, 12, 12); */
+    border-width    : 2px;
+    background-color: #bbded6;
+}
+
+.formulario{
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       :nowrap;
+    justify-content: center;
+    display         : flex;
+    width           : 90%;
+    height          :20vh;
+    /* background-color:#4bbcf4; */
+    /* border-style    : solid; */
+    /* border-color    : red; */
+    border-width    : 2px;
+    margin-left     : 4%;
+}
+.columnas{
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       :nowrap;
+    margin-top   : 2%;
+}
+.colApp{
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       :nowrap;
+    width : 25%;
+    height:80vh;
+    background-color: #fae569;
+    border-style    : solid;
+    border-color    : black;
+    border-width    : 2px;
+    justify-content : center;
+    /* margin          : 0.5%;
+    margin-top: 5%; */
+}
+
+
+/* estilos formulario */
+form {
+    /* Centrar el formulario en la página */
+   
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  .arriba{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+  }
+  .titulo{
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       :nowrap;
+    justify-content: center;
+    color : black;
+    font-size: 1.5em;
+    width: 30%;
+    height: 10%;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    border-width    : 2px;
+    background-color: blue;
+  }
